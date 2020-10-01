@@ -329,7 +329,7 @@ class AugustPlatform {
       var self = this;
   
       // Log in
-      var authenticate = this.augustApi.authorize();
+      var authenticate = this.augustApi.authorize(this.code);
       authenticate.then(function (result) {
         self.postLogin(callback);
       }, function (error) {
