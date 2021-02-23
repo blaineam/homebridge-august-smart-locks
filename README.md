@@ -8,6 +8,11 @@ It can be connected via the August Connect Bridge Accesory
 The August smart locks are exposed as a lock in HomeKit with support for:
 - Lock/Unlock
 
+DoorSense™ is exposed as a Contact Sensor in HomeKit with support for:
+- Open/Closed
+- Automation based on sensor status is now available
+- August Wi-Fi Smart Lock Gen4: Door sensor is not available in HomeKit using the official HomeKit installation.
+
 ## Installation
 
 Please install the plugin with the following command:
@@ -70,6 +75,7 @@ or use the Homebridge Web Interface to setup the Plugin by searching for 'august
 
 * Tested and Developed for August Smart Lock Generation 3 (non pro) because it has a more intuitive interface for the deadbolt and it way cheaper than the pro.
 * Tested with August Smart Lock Pro 2nd Generation non WIFI model.
+* Tested with August Wi-Fi Smart Lock (Gen4).
 
 ## Thanks
 
